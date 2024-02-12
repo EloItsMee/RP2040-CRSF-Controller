@@ -7,6 +7,7 @@
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="VSYS" ConstraintNetId="79fc9942-a385-46c8-8409-03399d6a5195" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="1V1_REG" ConstraintNetId="0f535ee8-a144-4e85-bcf4-1a752cabf92f" />
     <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="3V3_REG" ConstraintNetId="d28e3ea4-923b-4049-b2f2-d1d6ea6e4098" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetU1_2" ConstraintNetId="fcfe7e56-4ec3-40c6-a616-9f2f54b5e36f" />
   </FlattenedNetName2ConstraintNetId>
   <CNets>
     <CNet Id="1e938995-234c-4719-a88a-a07b9beff8e4">
@@ -35,6 +36,11 @@
       <ConstraintNodes />
     </CNet>
     <CNet Id="d28e3ea4-923b-4049-b2f2-d1d6ea6e4098">
+      <Constraints />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="fcfe7e56-4ec3-40c6-a616-9f2f54b5e36f">
       <Constraints />
       <ConstraintSets />
       <ConstraintNodes />
@@ -110,15 +116,15 @@
   </CXNetClasses>
   <ConstraintClearancesMatrix>
     <CCMFromScopes>
-      <CCMFromScope Id="0b60f19e-1f47-4475-8f8c-65e901c36a18">
+      <CCMFromScope Id="790c7d7f-31ef-42a0-b1ca-081afeb5d6bf">
         <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
         <CCMToScopes>
-          <CCMToScope Id="fe3c8b88-ec2f-4f98-9af0-e23a9387f2d1" SetId="00000000-0000-0000-0000-000000000000">
+          <CCMToScope Id="5f681560-e688-48e9-9c52-dcd4364ac4a9" SetId="00000000-0000-0000-0000-000000000000">
             <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
             <DefaultConstraintClearancesMatrixConstraint Id="00000000-0000-0000-0000-000000000000" Kind="0" Name="" Description="" Scope1="" Scope2="" Attributes="" LayerType="0" LayerId="0" />
             <CCMConstraints>
-              <CCMConstraint Id="866e45a1-927e-4ff4-af13-cf848e7b4982" Kind="0" Name="Clearance_1" Description="Clearance Constraint [Generic clearance = 10mil, and 15 value(s) for objects]" Scope1="OnMid" Scope2="OnMid" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES=ClearanceObj_Arc-ClearanceObj_Arc:50000;ClearanceObj_Arc-ClearanceObj_Track:50000;ClearanceObj_Arc-ClearanceObj_SMDPad:120000;ClearanceObj_Arc-ClearanceObj_THPad:150000;ClearanceObj_Arc-ClearanceObj_Text:50000;ClearanceObj_Track-ClearanceObj_Track:50000;ClearanceObj_Track-ClearanceObj_SMDPad:120000;ClearanceObj_Track-ClearanceObj_THPad:150000;ClearanceObj_Track-ClearanceObj_Text:50000;ClearanceObj_SMDPad-ClearanceObj_SMDPad:50000;ClearanceObj_SMDPad-ClearanceObj_THPad:150000;ClearanceObj_SMDPad-ClearanceObj_Text:120000;ClearanceObj_THPad-ClearanceObj_THPad:200000;ClearanceObj_THPad-ClearanceObj_Text:150000;ClearanceObj_Text-ClearanceObj_Text:50000" LayerType="2" LayerId="0" />
-              <CCMConstraint Id="322c8d83-0ffa-4c52-a01d-183f10fcdd0c" Kind="0" Name="Clearance_2" Description="Clearance Constraint [Generic clearance = 10mil, and 15 value(s) for objects]" Scope1="(ExistsOnLayer('Top Layer') Or ExistsOnLayer('Bottom Layer'))" Scope2="(ExistsOnLayer('Top Layer') Or ExistsOnLayer('Bottom Layer'))" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES=ClearanceObj_Arc-ClearanceObj_Arc:50000;ClearanceObj_Arc-ClearanceObj_Track:50000;ClearanceObj_Arc-ClearanceObj_SMDPad:120000;ClearanceObj_Arc-ClearanceObj_THPad:150000;ClearanceObj_Arc-ClearanceObj_Text:50000;ClearanceObj_Track-ClearanceObj_Track:50000;ClearanceObj_Track-ClearanceObj_SMDPad:120000;ClearanceObj_Track-ClearanceObj_THPad:150000;ClearanceObj_Track-ClearanceObj_Text:50000;ClearanceObj_SMDPad-ClearanceObj_SMDPad:50000;ClearanceObj_SMDPad-ClearanceObj_THPad:150000;ClearanceObj_SMDPad-ClearanceObj_Text:120000;ClearanceObj_THPad-ClearanceObj_THPad:200000;ClearanceObj_THPad-ClearanceObj_Text:150000;ClearanceObj_Text-ClearanceObj_Text:50000" LayerType="1" LayerId="0" />
+              <CCMConstraint Id="6ff6855a-289c-4d20-b7c4-14353bb43c02" Kind="0" Name="Clearance_1" Description="Clearance Constraint [Generic clearance = 10mil, and 15 value(s) for objects]" Scope1="OnMid" Scope2="OnMid" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES=ClearanceObj_Arc-ClearanceObj_Arc:50000;ClearanceObj_Arc-ClearanceObj_Track:50000;ClearanceObj_Arc-ClearanceObj_SMDPad:50000;ClearanceObj_Arc-ClearanceObj_THPad:150000;ClearanceObj_Arc-ClearanceObj_Text:50000;ClearanceObj_Track-ClearanceObj_Track:50000;ClearanceObj_Track-ClearanceObj_SMDPad:50000;ClearanceObj_Track-ClearanceObj_THPad:150000;ClearanceObj_Track-ClearanceObj_Text:50000;ClearanceObj_SMDPad-ClearanceObj_SMDPad:50000;ClearanceObj_SMDPad-ClearanceObj_THPad:150000;ClearanceObj_SMDPad-ClearanceObj_Text:50000;ClearanceObj_THPad-ClearanceObj_THPad:200000;ClearanceObj_THPad-ClearanceObj_Text:150000;ClearanceObj_Text-ClearanceObj_Text:50000" LayerType="2" LayerId="0" />
+              <CCMConstraint Id="c074f049-430d-4478-960e-e129d18c550f" Kind="0" Name="Clearance_2" Description="Clearance Constraint [Generic clearance = 10mil, and 15 value(s) for objects]" Scope1="(ExistsOnLayer('Top Layer') Or ExistsOnLayer('Bottom Layer'))" Scope2="(ExistsOnLayer('Top Layer') Or ExistsOnLayer('Bottom Layer'))" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES=ClearanceObj_Arc-ClearanceObj_Arc:50000;ClearanceObj_Arc-ClearanceObj_Track:50000;ClearanceObj_Arc-ClearanceObj_SMDPad:50000;ClearanceObj_Arc-ClearanceObj_THPad:150000;ClearanceObj_Arc-ClearanceObj_Text:50000;ClearanceObj_Track-ClearanceObj_Track:50000;ClearanceObj_Track-ClearanceObj_SMDPad:50000;ClearanceObj_Track-ClearanceObj_THPad:150000;ClearanceObj_Track-ClearanceObj_Text:50000;ClearanceObj_SMDPad-ClearanceObj_SMDPad:50000;ClearanceObj_SMDPad-ClearanceObj_THPad:150000;ClearanceObj_SMDPad-ClearanceObj_Text:50000;ClearanceObj_THPad-ClearanceObj_THPad:200000;ClearanceObj_THPad-ClearanceObj_Text:150000;ClearanceObj_Text-ClearanceObj_Text:50000" LayerType="1" LayerId="0" />
             </CCMConstraints>
           </CCMToScope>
         </CCMToScopes>
