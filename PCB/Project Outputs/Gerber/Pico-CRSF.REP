@@ -2,39 +2,13 @@
 FileName = Pico-CRSF.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Pad Master
-      File : Pico-CRSF.GPB
+Generating : Keep-Out Layer
+      File : Pico-CRSF.GKO
 
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Keep-Out Layer
 
 
 Used DCodes :
-    D26
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : Pico-CRSF.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
 *************************************************************
 
 *************************************************************
@@ -50,18 +24,6 @@ Generating : Bottom Paste
 
 Used DCodes :
     D26
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : Pico-CRSF.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D14
-    D15
 *************************************************************
 
 *************************************************************
@@ -99,6 +61,104 @@ Used DCodes :
     D36
     D37
     D38
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Pico-CRSF.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D44
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Pico-CRSF.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D20
+    D21
+    D22
+    D23
+    D31
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Pico-CRSF.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Pico-CRSF.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
 *************************************************************
 
 *************************************************************
@@ -144,13 +204,23 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Keep-Out Layer
-      File : Pico-CRSF.GKO
+Generating : Bottom Pad Master
+      File : Pico-CRSF.GPB
 
-    Adding Layer      : Keep-Out Layer
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D26
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
 *************************************************************
 
 *************************************************************
@@ -225,76 +295,6 @@ Used DCodes :
     D73
     D74
     D75
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : Pico-CRSF.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D18
-    D20
-    D21
-    D22
-    D23
-    D31
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : Pico-CRSF.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D44
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
 *************************************************************
 
 *************************************************************

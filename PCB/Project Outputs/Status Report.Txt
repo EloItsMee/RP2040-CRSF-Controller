@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of PCB Document [Pico-CRSF.PcbDoc]
+   Generated File[Bill of Materials-Pico-CRSF.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:12:18 On 2024-02-13

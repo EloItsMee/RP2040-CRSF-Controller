@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [Pico-CRSF.PcbDoc]
+   Generated File[Pick Place for Pico-CRSF.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:00:04 On 2024-02-13

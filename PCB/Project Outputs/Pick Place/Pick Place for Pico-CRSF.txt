@@ -5,8 +5,8 @@ C:\Users\Foxy\Documents\GitHub\RP2040-CRSF-Controller\PCB\Project Outputs\Pick P
 File Design Information:
 
 Date:       13-02-24
-Time:       15:03
-Revision:   c6519b640d864a322c1399c100d97f3708cf04a9
+Time:       15:12
+Revision:   699d09863668db6e8f4e6053a83385ac855b01fe
 Variant:    No variations
 Units used: mil
 
