@@ -4,14 +4,14 @@ C:\Users\Foxy\Documents\GitHub\RP2040-CRSF-Controller\PCB\Project Outputs\Pick P
 ========================================================================================================================
 File Design Information:
 
-Date:       13-02-24
-Time:       15:12
+Date:       14-02-24
+Time:       16:25
 Revision:   699d09863668db6e8f4e6053a83385ac855b01fe
 Variant:    No variations
 Units used: mil
 
 "Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
-"J6","TSW-102-26-G-S","TopLayer","SMTC-TSW-102-26-XX-S","1427.000","1900.000","180","0.025" SQ Post Header, Through-hole, Vertical, -55 to 125 degC, 2.54 mm Pitch, 2-Pin, Male, RoHS"
+"J6","TSW-102-26-G-S","TopLayer","SMTC-TSW-102-26-XX-S","1427.000","1879.000","180","0.025" SQ Post Header, Through-hole, Vertical, -55 to 125 degC, 2.54 mm Pitch, 2-Pin, Male, RoHS"
 "J2","TSW-102-26-G-S","TopLayer","SMTC-TSW-102-26-XX-S","450.000","1354.000","90","0.025" SQ Post Header, Through-hole, Vertical, -55 to 125 degC, 2.54 mm Pitch, 2-Pin, Male, RoHS"
 "Y1","ABLS-12.000MHZ-B4-T","TopLayer","ABLS","988.252","396.701","0","Crystal or Oscillator"
 "U3","S25FL128LAGMFI010","TopLayer","SOIC127P800X216-8N","630.000","1339.000","90","CYPRESS SEMICONDUCTOR - S25FL128LAGMFI010 - FLASH MEMORY, 128MBIT, 133MHZ, SOIC-8"
