@@ -4,19 +4,19 @@ C:\Users\Foxy\Documents\GitHub\RP2040-CRSF-Controller\PCB\Project Outputs\Pick P
 ========================================================================================================================
 File Design Information:
 
-Date:       14-02-24
-Time:       17:16
-Revision:   6fb7644413eaae5357d4481f50be00ff047f7cb6
+Date:       15-02-24
+Time:       22:02
+Revision:   231521719ad3b7fdbc0917fff2c68255718e6552
 Variant:    No variations
 Units used: mil
 
 "Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"IC1","NCP1117ISTAT3G","TopLayer","SOT230P700X180-4N","1582.000","1321.000","270","Integrated Circuit"
 "J6","TSW-102-26-G-S","TopLayer","SMTC-TSW-102-26-XX-S","1427.000","1879.000","180","0.025" SQ Post Header, Through-hole, Vertical, -55 to 125 degC, 2.54 mm Pitch, 2-Pin, Male, RoHS"
 "J2","TSW-102-26-G-S","TopLayer","SMTC-TSW-102-26-XX-S","450.000","1354.000","90","0.025" SQ Post Header, Through-hole, Vertical, -55 to 125 degC, 2.54 mm Pitch, 2-Pin, Male, RoHS"
 "Y1","ABLS-12.000MHZ-B4-T","TopLayer","ABLS","988.252","396.701","0","Crystal or Oscillator"
-"U3","S25FL128LAGMFI010","TopLayer","SOIC127P800X216-8N","630.000","1339.000","90","CYPRESS SEMICONDUCTOR - S25FL128LAGMFI010 - FLASH MEMORY, 128MBIT, 133MHZ, SOIC-8"
-"U2","RP2040CT","TopLayer","QFN40P700X700X90_HS-57N","984.252","950.000","0","RASPBERRY-PI RP2040CT"
-"U1","NCP1117ISTAT3G","TopLayer","SOT230P700X180-4N","1584.000","1294.000","270","Positive Adjustable 1 Output 1 A Linear Voltage Regulator IC - SOT-223"
+"U2","S25FL128LAGMFI010","TopLayer","SOIC127P800X216-8N","630.000","1339.000","90","CYPRESS SEMICONDUCTOR - S25FL128LAGMFI010 - FLASH MEMORY, 128MBIT, 133MHZ, SOIC-8"
+"U1","RP2040CT","TopLayer","QFN40P700X700X90_HS-57N","984.252","950.000","0","RASPBERRY-PI RP2040CT"
 "TP4","TestPoint","BottomLayer","TestPoint-Footprint-1","1031.000","1841.000","90","Test point for circuit testing."
 "R9","CR0402AFX-1001GAS","TopLayer","FP-CR0402-IPC_C","979.000","564.000","180","Fixed Resistor, Metal Glaze/thick Film, 0.063W, 1000ohm, 50V, 1% +/-Tol, 100ppm/Cel, Surface Mount, 0402"
 "R8","CR0402AFX-1001GAS","TopLayer","FP-CR0402-IPC_C","498.000","1110.000","0","Fixed Resistor, Metal Glaze/thick Film, 0.063W, 1000ohm, 50V, 1% +/-Tol, 100ppm/Cel, Surface Mount, 0402"
@@ -25,16 +25,16 @@ Units used: mil
 "R5","CR0402-FX-27R0GLF","TopLayer","FP-CR0402-IPC_C","1002.000","1189.000","270","Fixed Resistor, Metal Glaze/thick Film, 0.0625W, 27ohm, 50V, 1% +/-Tol, 100ppm/Cel, Surface Mount, 0402"
 "R4","RC0402FR-071R","TopLayer","RESC1005X40X25NL05T10","1394.000","1086.000","90","Fixed Resistor, Metal Glaze/thick Film, 0.0625W, 1.1ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0402"
 "R3","CR0402-FX-2000GLF","TopLayer","FP-CR0402-IPC_C","1481.000","1085.000","270","Fixed Resistor, Metal Glaze/thick Film, 0.0625W, 200ohm, 50V, 1% +/-Tol, 100ppm/Cel, Surface Mount, 0402"
-"R2","RC0402JR-07300RL","TopLayer","RESC1005X40X25NL05T10","1772.000","1417.000","90","Fixed Resistor, Metal Glaze/thick Film, 0.0625W, 300ohm, 50V, 5% +/-Tol, 100ppm/Cel, Surface Mount, 0402"
-"R1","RC0402FR-07180RL","TopLayer","RESC1005X40X25NL05T10","1772.000","1330.000","90","Fixed Resistor, Metal Glaze/thick Film, 0.0625W, 180ohm, 50V, 1% +/-Tol, 100ppm/Cel, Surface Mount, 0402"
-"J8","2212S-05SG-85","TopLayer","RHDR5W74P0X254_1X5_1320X250X850P","1899.606","1184.252","90","Connector"
-"J7","2212S-05SG-85","TopLayer","RHDR5W74P0X254_1X5_1320X250X850P","1899.606","593.701","90","Connector"
+"R1","RC0402JR-07300RL","TopLayer","RESC1005X40X25NL05T10","1727.000","1547.000","270","Fixed Resistor, Metal Glaze/thick Film, 0.0625W, 300ohm, 50V, 5% +/-Tol, 100ppm/Cel, Surface Mount, 0402"
+"R2","RC0402FR-07180RL","TopLayer","RESC1005X40X25NL05T10","1778.000","1510.000","270","Fixed Resistor, Metal Glaze/thick Film, 0.0625W, 180ohm, 50V, 1% +/-Tol, 100ppm/Cel, Surface Mount, 0402"
+"J8","2212S-05SG-85","TopLayer","RHDR5W74P0X254_1X5_1320X250X850P","1896.000","1185.000","270","Connector"
+"J7","2212S-05SG-85","TopLayer","RHDR5W74P0X254_1X5_1320X250X850P","1900.000","593.701","90","Connector"
 "J5","TSW-103-26-G-S","TopLayer","TSW-103-XX-YY-S","985.827","78.740","0","Connector"
 "J4","SM04B-SRSS-TB_LF__SN_","TopLayer","SM04B-SRSS-TB(LFSN)","126.909","649.606","270","Connector"
 "J3","2212S-05SG-85","TopLayer","RHDR5W74P0X254_1X5_1320X250X850P","68.898","1177.953","270","Connector"
-"J1","10118193-0001LF","TopLayer","101181930001LF","984.252","1789.665","180","Micro USB 2.0, Input Output Connectors, B TYPE RECEPTACLE"
+"J1","10118193-0001LF","TopLayer","101181930001LF","984.252","1789.665","180","Connector"
 "D1","PMEG2010ER,115","TopLayer","PMEG2010ER115","1427.000","1758.000","180","Schottky Diode"
-"C18","CL31A107MQHNNNE","TopLayer","CAPC3216X16N","376.000","557.000","0","Ceramic Capacitor, Multilayer, Ceramic, 6.3V, 20% +Tol, 20% -Tol, X5R, 15% TC, 100uF, Surface Mount, 1206"
+"C18","GRT21BR60J476ME13L","TopLayer","FP-GRT21B-0_2-MFG","369.000","557.000","0","Ceramic Capacitor, Multilayer, Ceramic, 6.3V, 20% +Tol, 20% -Tol, X5R, 15% TC, 47uF, Surface Mount, 0805"
 "C17","GCM1555C1H300JA16D","TopLayer","FP-GCM155-0_05-IPC_A","1372.000","377.000","270","Ceramic Capacitor, Multilayer, Ceramic, 50V, 5% +Tol, 5% -Tol, C0G, 30ppm/Cel TC, 0.00003uF, Surface Mount, 0402"
 "C16","GCM1555C1H300JA16D","TopLayer","FP-GCM155-0_05-IPC_A","607.000","378.000","270","Ceramic Capacitor, Multilayer, Ceramic, 50V, 5% +Tol, 5% -Tol, C0G, 30ppm/Cel TC, 0.00003uF, Surface Mount, 0402"
 "C15","CL31A107MQHNNNE","TopLayer","CAPC3216X16N","204.000","1415.000","90","Ceramic Capacitor, Multilayer, Ceramic, 6.3V, 20% +Tol, 20% -Tol, X5R, 15% TC, 100uF, Surface Mount, 1206"
@@ -50,5 +50,5 @@ Units used: mil
 "C5","04026D104KAT2A","TopLayer","CAPC1005X56X25LL10T15","763.000","1058.000","180","Ceramic Capacitor, Multilayer, Ceramic, 6.3V, 10% +Tol, 10% -Tol, X5R, 15% TC, 0.1uF, Surface Mount, 0402"
 "C4","04026D104KAT2A","TopLayer","CAPC1005X56X25LL10T15","1216.000","1054.000","0","Ceramic Capacitor, Multilayer, Ceramic, 6.3V, 10% +Tol, 10% -Tol, X5R, 15% TC, 0.1uF, Surface Mount, 0402"
 "C3","04026D104KAT2A","TopLayer","CAPC1005X56X25LL10T15","952.000","1235.000","90","Ceramic Capacitor, Multilayer, Ceramic, 6.3V, 10% +Tol, 10% -Tol, X5R, 15% TC, 0.1uF, Surface Mount, 0402"
-"C2","GRT21BR60J476ME13L","TopLayer","FP-GRT21B-0_2-MFG","1395.000","1219.000","90","Ceramic Capacitor, Multilayer, Ceramic, 6.3V, 20% +Tol, 20% -Tol, X5R, 15% TC, 47uF, Surface Mount, 0805"
-"C1","GRT21BR60J476ME13L","TopLayer","FP-GRT21B-0_2-MFG","1397.000","1561.000","180","Ceramic Capacitor, Multilayer, Ceramic, 6.3V, 20% +Tol, 20% -Tol, X5R, 15% TC, 47uF, Surface Mount, 0805"
+"C1","GRT21BR60J476ME13L","TopLayer","FP-GRT21B-0_2-MFG","1371.000","1237.000","90","Ceramic Capacitor, Multilayer, Ceramic, 6.3V, 20% +Tol, 20% -Tol, X5R, 15% TC, 47uF, Surface Mount, 0805"
+"C2","GRT21BR60J476ME13L","TopLayer","FP-GRT21B-0_2-MFG","1397.000","1561.000","180","Ceramic Capacitor, Multilayer, Ceramic, 6.3V, 20% +Tol, 20% -Tol, X5R, 15% TC, 47uF, Surface Mount, 0805"
