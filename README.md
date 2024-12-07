@@ -1,1 +1,1 @@
-# RP2040-CRSF-Controller
+# Custom RP2040-based Drone Companion Computer board
